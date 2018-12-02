@@ -58,7 +58,7 @@ namespace DigibyteMiner.Core.Interfaces
         Bitmap Logo { get; }
 
         /// <summary>
-        /// Most coins would have its own way of setting the miner. if u have custom options u can provide 
+        /// Most coins would have its own way of setting the miner. if u have custom options u can provide
         /// a custom ui to take the settings
         /// </summary>
         ICoinConfigurer SettingsScreen { get; }

@@ -15,7 +15,7 @@ namespace DigibyteMiner.Core.Interfaces
         UNKNOWN,
         END
     }
-    public class GpuData 
+    public class GpuData
     {
         public string Hashrate { get; set; }
         public string FanSpeed { get; set; }

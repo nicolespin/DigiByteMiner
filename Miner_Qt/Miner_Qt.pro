@@ -26,10 +26,32 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        controlpanel.cpp
+        controlpanel.cpp \
+    controlpanel.cpp \
+    main.cpp \
+    oneminer.cpp \
+    Core/oneminer.cpp \
+    controlpanel.cpp \
+    main.cpp \
+    Core/icoin.cpp \
+    Core/Interfaces/icoin.cpp \
+    Core/oneminer.cpp \
+    Core/Interfaces/icoinconfigurer.cpp \
+    Core/Interfaces/igpudata.cpp \
+    Core/Interfaces/ihashalgorithm.cpp
 
 HEADERS += \
-        controlpanel.h
+        controlpanel.h \
+    controlpanel.h \
+    oneminer.h \
+    Core/oneminer.h \
+    controlpanel.h \
+    Core/icoin.h \
+    Core/Interfaces/icoin.h \
+    Core/oneminer.h \
+    Core/Interfaces/icoinconfigurer.h \
+    Core/Interfaces/igpudata.h \
+    Core/Interfaces/ihashalgorithm.h
 
 FORMS += \
         controlpanel.ui
